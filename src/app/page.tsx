@@ -7,7 +7,7 @@ export default function Home() {
         <div className="flex flex-col justify-center items-center gap-4">
           <h1 className="text-4xl font-bold">Bem-Vindo</h1>
           <GiPlasticDuck className="w-41 h-41 text-amber-300" />
-          <p>Site de teste. Hospedagem no ar!!</p>
+          <p>Pega no meu pato. Hospedagem no ar!!</p>
         </div>
       </div>
     </main>
