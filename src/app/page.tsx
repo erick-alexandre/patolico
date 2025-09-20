@@ -7,7 +7,7 @@ export default function Home() {
   const [patinhos, setPatinhos] = useState(0);
   const [showMsg, setShowMsg] = useState(false);
   const [ultimoClick, setUltimoClick] = useState(0);
-  const timeoutRef = useRef<NodeJS.Timeout | null>(null); // controla o timeout
+  const timeoutRef = useRef<NodeJS.Timeout | null>(null); 
 
   const handleDuckClick = () => {
     const newCount = patinhos + 1;
